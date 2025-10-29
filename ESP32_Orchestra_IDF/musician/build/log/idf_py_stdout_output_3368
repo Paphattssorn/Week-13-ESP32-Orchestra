@@ -1,0 +1,442 @@
+Command: C:\Users\HP\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Users\HP\esp\v5.5.1\esp-idf\tools/idf_monitor.py -p COM5 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 C:\Users\HP\Documents\SPECIAL TOPIC\3-Koson\ESP32_Orchestra_IDF\Week-13-ESP32-Orchestra\ESP32_Orchestra_IDF\musician\build\esp32_orchestra_musician.elf C:\Users\HP\Documents\SPECIAL TOPIC\3-Koson\ESP32_Orchestra_IDF\Week-13-ESP32-Orchestra\ESP32_Orchestra_IDF\musician\build\bootloader\bootloader.elf --force-color -m 'C:\Users\HP\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Users\HP\esp\v5.5.1\esp-idf\tools\idf.py' '-p' 'COM5'
+AST_FLASH_B[^*��ɽ��source...
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label         ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Oct  7 2025 10:21:23[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=19f90h (106384) map[0m
+[0;32mI (124) esp_image: segment 1: paddr=00029fb8 vaddr=3ffb0000 size=03f74h ( 16244) load[0m
+[0;32mI (131) esp_image: segment 2: paddr=0002df34 vaddr=40080000 size=020e4h (  8420) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=85434h (545844) map[0m
+[0;32mI (322) esp_image: segment 4: paddr=000b545c vaddr=400820e4 size=15eech ( 89836) load[0m
+[0;32mI (357) esp_image: segment 5: paddr=000cb350 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (369) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (369) boot: Disabling RNG early entropy source...[0m
+[0;32mI (380) cpu_start: Multicore app[0m
+[0;32mI (388) cpu_start: Pro cpu start user code[0m
+[0;32mI (388) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (388) app_init: Application information:[0m
+[0;32mI (388) app_init: Project name:     esp32_orchestra_musician[0m
+[0;32mI (394) app_init: App version:      4d38326-dirty[0m
+[0;32mI (398) app_init: Compile time:     Oct  7 2025 10:20:28[0m
+[0;32mI (403) app_init: ELF file SHA256:  89abc9659...[0m
+[0;32mI (408) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (411) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (415) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (419) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (423) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (430) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (434) heap_init: At 3FFB8108 len 00027EF8 (159 KiB): DRAM[0m
+[0;32mI (440) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (445) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (451) heap_init: At 40097FD0 len 00008030 (32 KiB): IRAM[0m
+[0;32mI (457) spi_flash: detected chip: generic[0m
+[0;32mI (460) spi_flash: flash io: dio[0m
+[0;33mW (463) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (476) main_task: Started on CPU0[0m
+[0;32mI (479) main_task: Calling app_main()[0m
+[0;32mI (481) MAIN: 🎵 ESP32 Orchestra Musician Starting...[0m
+[0;32mI (486) MAIN: 🎭 Musician Information:[0m
+[0;32mI (490) MAIN:    ID: 1[0m
+[0;32mI (492) MAIN:    Role: Part B (Harmony)[0m
+[0;32mI (495) MAIN:    MAC: 98:3b:40:3f:02:00[0m
+[0;32mI (499) MAIN: ✅ GPIO setup complete (LED + Button)[0m
+[0;32mI (504) SOUND: 🔊 Sound player initialized (Buzzer: GPIO 18)[0m
+[0;32mI (523) wifi:wifi driver task: 3ffc10d4, prio:23, stack:6656, core=0[0m
+[0;32mI (529) wifi:wifi firmware version: 14da9b7[0m
+[0;32mI (529) wifi:wifi certification version: v7.0[0m
+[0;32mI (529) wifi:config NVS flash: enabled[0m
+[0;32mI (530) wifi:config nano formatting: disabled[0m
+[0;32mI (534) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (539) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (543) wifi:Init management short buffer num: 32[0m
+[0;32mI (547) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (551) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (556) wifi:Init static rx buffer num: 10[0m
+[0;32mI (559) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (564) wifi_init: rx ba win: 6[0m
+[0;32mI (566) wifi_init: accept mbox: 6[0m
+[0;32mI (569) wifi_init: tcpip mbox: 32[0m
+[0;32mI (572) wifi_init: udp mbox: 6[0m
+[0;32mI (575) wifi_init: tcp mbox: 6[0m
+[0;32mI (578) wifi_init: tcp tx win: 5760[0m
+[0;32mI (581) wifi_init: tcp rx win: 5760[0m
+[0;32mI (584) wifi_init: tcp mss: 1440[0m
+[0;32mI (587) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (590) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (595) phy_init: phy_version 4861,b71b5ad,Aug  5 2025,11:16:06[0m
+[0;32mI (678) wifi:mode : sta (14:33:5c:0e:02:48)[0m
+[0;32mI (679) wifi:enable tsf[0m
+[0;32mI (682) MUSICIAN: 📡 MAC Address: 14:33:5c:0e:02:48[0m
+[0;32mI (683) ESPNOW: espnow [version: 2.0] init[0m
+[0;32mI (684) MUSICIAN: ✅ ESP-NOW initialized for Musician 1[0m
+[0;32mI (687) MAIN: ✅ Musician ready and listening for conductor![0m
+[0;32mI (693) MAIN: 💡 LED Patterns:[0m
+[0;32mI (696) MAIN:    Slow blink = Ready/Waiting[0m
+[0;32mI (700) MAIN:    Solid = Playing song[0m
+[0;32mI (703) MAIN:    Fast blink = Error[0m
+[0;32mI (706) MAIN:    Heartbeat = Active communication[0m
+[0;32mI (711) MAIN: 🔘 Button Functions:[0m
+[0;32mI (714) MAIN:    Press BOOT button (GPIO 0) to test song playback[0m
+[0;32mI (720) MAIN:    This will simulate SONG_START from conductor[0m
+[0;32mI (726) MAIN: 🚀 All tasks created, musician is ready![0m
+[0;32mI (730) main_task: Returned from app_main()[0m
+[0;32mI (2254) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (2254) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (2254) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (2259) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (5325) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5325) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5325) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (5330) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (5526) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (5526) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (5526) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (5527) MUSICIAN: 🔍 Messages Received: 2[0m
+[0;32mI (5531) MUSICIAN: 🔍 Time since last message: 195 ms[0m
+[0;32mI (5536) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (5539) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (5542) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (5547) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (5552) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (5558) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 2 times)[0m
+[0;33mW (5563) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (5569) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (5576) MUSICIAN: 🔍 =================[0m
+[0;32mI (10335) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (10335) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (10335) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (10340) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (10580) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (10580) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (10580) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (10581) MUSICIAN: 🔍 Messages Received: 3[0m
+[0;32mI (10585) MUSICIAN: 🔍 Time since last message: 239 ms[0m
+[0;32mI (10590) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (10593) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (10597) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (10601) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (10607) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (10612) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 3 times)[0m
+[0;33mW (10618) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (10624) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (10631) MUSICIAN: 🔍 =================[0m
+[0;32mI (15337) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15337) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (15337) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (15342) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (15535) MUSICIAN: 📊 Musician 1 Status:[0m
+[0;32mI (15535) MUSICIAN:    Active: No[0m
+[0;32mI (15535) MUSICIAN:    Current Song: 0[0m
+[0;32mI (15535) MUSICIAN:    Messages Received: 4[0m
+[0;32mI (15538) MUSICIAN:    Notes Played: 0[0m
+[0;32mI (15541) MUSICIAN:    Currently Playing: No[0m
+[0;32mI (15545) MUSICIAN:    Last Message: 192 ms ago[0m
+[0;32mI (15650) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (15650) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (15650) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (15651) MUSICIAN: 🔍 Messages Received: 4[0m
+[0;32mI (15655) MUSICIAN: 🔍 Time since last message: 307 ms[0m
+[0;32mI (15660) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (15663) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (15667) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (15671) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (15677) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (15682) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 4 times)[0m
+[0;33mW (15688) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (15694) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (15701) MUSICIAN: 🔍 =================[0m
+[0;32mI (17275) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (17275) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (17276) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (17280) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (20347) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (20347) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (20347) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (20352) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (20705) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (20705) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (20705) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (20706) MUSICIAN: 🔍 Messages Received: 6[0m
+[0;32mI (20710) MUSICIAN: 🔍 Time since last message: 352 ms[0m
+[0;32mI (20715) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (20718) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (20722) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (20726) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (20732) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (20737) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 6 times)[0m
+[0;33mW (20743) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (20749) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (20756) MUSICIAN: 🔍 =================[0m
+[0;32mI (25350) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (25350) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (25350) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (25355) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (25760) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (25760) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (25760) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (25761) MUSICIAN: 🔍 Messages Received: 7[0m
+[0;32mI (25765) MUSICIAN: 🔍 Time since last message: 404 ms[0m
+[0;32mI (25770) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (25773) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (25777) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (25781) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (25787) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (25792) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 7 times)[0m
+[0;33mW (25798) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (25804) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (25811) MUSICIAN: 🔍 =================[0m
+[0;32mI (30362) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30362) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30362) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (30367) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (30615) MUSICIAN: 📊 Musician 1 Status:[0m
+[0;32mI (30615) MUSICIAN:    Active: No[0m
+[0;32mI (30615) MUSICIAN:    Current Song: 0[0m
+[0;32mI (30615) MUSICIAN:    Messages Received: 8[0m
+[0;32mI (30618) MUSICIAN:    Notes Played: 0[0m
+[0;32mI (30621) MUSICIAN:    Currently Playing: No[0m
+[0;32mI (30625) MUSICIAN:    Last Message: 247 ms ago[0m
+[0;32mI (30830) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (30830) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (30830) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (30831) MUSICIAN: 🔍 Messages Received: 8[0m
+[0;32mI (30835) MUSICIAN: 🔍 Time since last message: 462 ms[0m
+[0;32mI (30840) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (30843) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (30847) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (30851) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (30857) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (30862) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 8 times)[0m
+[0;33mW (30868) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (30874) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (30881) MUSICIAN: 🔍 =================[0m
+[0;32mI (32289) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (32289) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (32290) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (32294) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (35363) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (35363) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (35363) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (35368) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (35885) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (35885) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (35885) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (35886) MUSICIAN: 🔍 Messages Received: 10[0m
+[0;32mI (35890) MUSICIAN: 🔍 Time since last message: 517 ms[0m
+[0;32mI (35895) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (35898) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (35902) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (35906) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (35912) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (35918) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 10 times)[0m
+[0;33mW (35923) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (35930) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (35937) MUSICIAN: 🔍 =================[0m
+[0;32mI (40372) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (40372) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (40372) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (40377) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (40940) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (40940) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (40940) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (40941) MUSICIAN: 🔍 Messages Received: 11[0m
+[0;32mI (40945) MUSICIAN: 🔍 Time since last message: 562 ms[0m
+[0;32mI (40950) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (40953) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (40957) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (40961) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (40967) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (40973) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 11 times)[0m
+[0;33mW (40978) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (40985) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (40992) MUSICIAN: 🔍 =================[0m
+[0;32mI (42301) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (42302) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (42302) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (42306) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (45375) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (45375) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (45376) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (45380) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (45695) MUSICIAN: 📊 Musician 1 Status:[0m
+[0;32mI (45695) MUSICIAN:    Active: No[0m
+[0;32mI (45695) MUSICIAN:    Current Song: 0[0m
+[0;32mI (45695) MUSICIAN:    Messages Received: 13[0m
+[0;32mI (45698) MUSICIAN:    Notes Played: 0[0m
+[0;32mI (45701) MUSICIAN:    Currently Playing: No[0m
+[0;32mI (45705) MUSICIAN:    Last Message: 314 ms ago[0m
+[0;32mI (46010) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (46010) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (46010) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (46011) MUSICIAN: 🔍 Messages Received: 13[0m
+[0;32mI (46015) MUSICIAN: 🔍 Time since last message: 629 ms[0m
+[0;32mI (46020) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (46023) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (46027) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (46031) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (46037) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (46042) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 13 times)[0m
+[0;33mW (46048) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (46055) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (46061) MUSICIAN: 🔍 =================[0m
+[0;32mI (50387) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (50387) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (50387) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (50392) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (51065) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (51065) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (51065) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (51066) MUSICIAN: 🔍 Messages Received: 14[0m
+[0;32mI (51070) MUSICIAN: 🔍 Time since last message: 673 ms[0m
+[0;32mI (51075) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (51078) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (51082) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (51086) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (51092) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (51098) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 14 times)[0m
+[0;33mW (51103) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (51110) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (51117) MUSICIAN: 🔍 =================[0m
+[0;32mI (55388) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (55388) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (55389) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (55393) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (56120) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (56120) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (56120) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (56121) MUSICIAN: 🔍 Messages Received: 15[0m
+[0;32mI (56125) MUSICIAN: 🔍 Time since last message: 726 ms[0m
+[0;32mI (56130) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (56133) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (56137) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (56141) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (56147) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (56153) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 15 times)[0m
+[0;33mW (56158) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (56165) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (56172) MUSICIAN: 🔍 =================[0m
+[0;32mI (60398) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (60398) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (60398) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (60403) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (60775) MUSICIAN: 📊 Musician 1 Status:[0m
+[0;32mI (60775) MUSICIAN:    Active: No[0m
+[0;32mI (60775) MUSICIAN:    Current Song: 0[0m
+[0;32mI (60775) MUSICIAN:    Messages Received: 16[0m
+[0;32mI (60778) MUSICIAN:    Notes Played: 0[0m
+[0;32mI (60781) MUSICIAN:    Currently Playing: No[0m
+[0;32mI (60785) MUSICIAN:    Last Message: 371 ms ago[0m
+[0;32mI (61190) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (61190) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (61190) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (61191) MUSICIAN: 🔍 Messages Received: 16[0m
+[0;32mI (61195) MUSICIAN: 🔍 Time since last message: 786 ms[0m
+[0;32mI (61200) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (61203) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (61207) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (61211) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (61217) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (61222) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 16 times)[0m
+[0;33mW (61228) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (61235) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (61241) MUSICIAN: 🔍 =================[0m
+[0;32mI (62325) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (62325) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (62325) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (62330) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (65401) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (65401) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (65401) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (65406) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (66245) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (66245) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (66245) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (66246) MUSICIAN: 🔍 Messages Received: 18[0m
+[0;32mI (66250) MUSICIAN: 🔍 Time since last message: 838 ms[0m
+[0;32mI (66255) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (66258) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (66262) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (66266) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (66272) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (66278) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 18 times)[0m
+[0;33mW (66283) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (66290) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (66297) MUSICIAN: 🔍 =================[0m
+[0;32mI (67335) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (67335) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (67336) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (67340) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (70411) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (70411) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (70411) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (70416) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (71300) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (71300) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (71300) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (71301) MUSICIAN: 🔍 Messages Received: 20[0m
+[0;32mI (71305) MUSICIAN: 🔍 Time since last message: 883 ms[0m
+[0;32mI (71310) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (71313) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (71317) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (71321) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (71327) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (71333) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 20 times)[0m
+[0;33mW (71338) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (71345) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (71352) MUSICIAN: 🔍 =================[0m
+[0;32mI (72340) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (72341) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (72341) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (72345) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (75416) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (75416) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (75416) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (75421) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (75855) MUSICIAN: 📊 Musician 1 Status:[0m
+[0;32mI (75855) MUSICIAN:    Active: No[0m
+[0;32mI (75855) MUSICIAN:    Current Song: 0[0m
+[0;32mI (75855) MUSICIAN:    Messages Received: 22[0m
+[0;32mI (75858) MUSICIAN:    Notes Played: 0[0m
+[0;32mI (75861) MUSICIAN:    Currently Playing: No[0m
+[0;32mI (75865) MUSICIAN:    Last Message: 434 ms ago[0m
+[0;32mI (76370) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (76370) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (76370) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (76371) MUSICIAN: 🔍 Messages Received: 22[0m
+[0;32mI (76375) MUSICIAN: 🔍 Time since last message: 949 ms[0m
+[0;32mI (76380) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (76383) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (76387) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (76391) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (76397) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (76402) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 22 times)[0m
+[0;33mW (76408) MUSICIAN: 🔍 ⚠️  Getting heartbeats but no SONG_START![0m
+[0;33mW (76415) MUSICIAN: 🔍 ⚠️  Check if conductor is actually playing songs.[0m
+[0;32mI (76421) MUSICIAN: 🔍 =================[0m
+[0;32mI (77348) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (77348) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (77349) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (77353) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m

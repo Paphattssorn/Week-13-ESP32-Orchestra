@@ -1,0 +1,1071 @@
+Command: C:\Users\HP\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Users\HP\esp\v5.5.1\esp-idf\tools/idf_monitor.py -p COM5 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 C:\Users\HP\Documents\SPECIAL TOPIC\3-Koson\ESP32_Orchestra_IDF\Week-13-ESP32-Orchestra\ESP32_Orchestra_IDF\musician\build\esp32_orchestra_musician.elf C:\Users\HP\Documents\SPECIAL TOPIC\3-Koson\ESP32_Orchestra_IDF\Week-13-ESP32-Orchestra\ESP32_Orchestra_IDF\musician\build\bootloader\bootloader.elf --force-color -m 'C:\Users\HP\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Users\HP\esp\v5.5.1\esp-idf\tools\idf.py' '-p' 'COM5'
+1 (POWERON_�j	5
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   �ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Oct  7 2025 10:21:23[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=19f90h (106384) map[0m
+[0;32mI (124) esp_image: segment 1: paddr=00029fb8 vaddr=3ffb0000 size=03f74h ( 16244) load[0m
+[0;32mI (131) esp_image: segment 2: paddr=0002df34 vaddr=40080000 size=020e4h (  8420) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=85434h (545844) map[0m
+[0;32mI (322) esp_image: segment 4: paddr=000b545c vaddr=400820e4 size=15eech ( 89836) load[0m
+[0;32mI (357) esp_image: segment 5: paddr=000cb350 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (369) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (369) boot: Disabling RNG early entropy source...[0m
+[0;32mI (380) cpu_start: Multicore app[0m
+[0;32mI (388) cpu_start: Pro cpu start user code[0m
+[0;32mI (388) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (388) app_init: Application information:[0m
+[0;32mI (388) app_init: Project name:     esp32_orchestra_musician[0m
+[0;32mI (394) app_init: App version:      4d38326-dirty[0m
+[0;32mI (398) app_init: Compile time:     Oct  7 2025 10:20:28[0m
+[0;32mI (403) app_init: ELF file SHA256:  89abc9659...[0m
+[0;32mI (408) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (411) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (415) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (419) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (423) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (430) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (434) heap_init: At 3FFB8108 len 00027EF8 (159 KiB): DRAM[0m
+[0;32mI (440) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (445) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (451) heap_init: At 40097FD0 len 00008030 (32 KiB): IRAM[0m
+[0;32mI (457) spi_flash: detected chip: generic[0m
+[0;32mI (460) spi_flash: flash io: dio[0m
+[0;33mW (463) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (476) main_task: Started on CPU0[0m
+[0;32mI (479) main_task: Calling app_main()[0m
+[0;32mI (481) MAIN: 🎵 ESP32 Orchestra Musician Starting...[0m
+[0;32mI (486) MAIN: 🎭 Musician Information:[0m
+[0;32mI (490) MAIN:    ID: 1[0m
+[0;32mI (492) MAIN:    Role: Part B (Harmony)[0m
+[0;32mI (495) MAIN:    MAC: 98:3b:40:3f:02:00[0m
+[0;32mI (499) MAIN: ✅ GPIO setup complete (LED + Button)[0m
+[0;32mI (504) SOUND: 🔊 Sound player initialized (Buzzer: GPIO 18)[0m
+[0;32mI (523) wifi:wifi driver task: 3ffc10d4, prio:23, stack:6656, core=0[0m
+[0;32mI (529) wifi:wifi firmware version: 14da9b7[0m
+[0;32mI (529) wifi:wifi certification version: v7.0[0m
+[0;32mI (529) wifi:config NVS flash: enabled[0m
+[0;32mI (530) wifi:config nano formatting: disabled[0m
+[0;32mI (534) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (539) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (543) wifi:Init management short buffer num: 32[0m
+[0;32mI (547) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (551) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (556) wifi:Init static rx buffer num: 10[0m
+[0;32mI (559) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (564) wifi_init: rx ba win: 6[0m
+[0;32mI (566) wifi_init: accept mbox: 6[0m
+[0;32mI (569) wifi_init: tcpip mbox: 32[0m
+[0;32mI (572) wifi_init: udp mbox: 6[0m
+[0;32mI (575) wifi_init: tcp mbox: 6[0m
+[0;32mI (578) wifi_init: tcp tx win: 5760[0m
+[0;32mI (581) wifi_init: tcp rx win: 5760[0m
+[0;32mI (584) wifi_init: tcp mss: 1440[0m
+[0;32mI (587) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (590) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (595) phy_init: phy_version 4861,b71b5ad,Aug  5 2025,11:16:06[0m
+[0;32mI (681) wifi:mode : sta (14:33:5c:0e:02:48)[0m
+[0;32mI (682) wifi:enable tsf[0m
+[0;32mI (685) MUSICIAN: 📡 MAC Address: 14:33:5c:0e:02:48[0m
+[0;32mI (687) ESPNOW: espnow [version: 2.0] init[0m
+[0;32mI (687) MUSICIAN: ✅ ESP-NOW initialized for Musician 1[0m
+[0;32mI (691) MAIN: ✅ Musician ready and listening for conductor![0m
+[0;32mI (696) MAIN: 💡 LED Patterns:[0m
+[0;32mI (699) MAIN:    Slow blink = Ready/Waiting[0m
+[0;32mI (703) MAIN:    Solid = Playing song[0m
+[0;32mI (706) MAIN:    Fast blink = Error[0m
+[0;32mI (710) MAIN:    Heartbeat = Active communication[0m
+[0;32mI (714) MAIN: 🔘 Button Functions:[0m
+[0;32mI (717) MAIN:    Press BOOT button (GPIO 0) to test song playback[0m
+[0;32mI (723) MAIN:    This will simulate SONG_START from conductor[0m
+[0;32mI (729) MAIN: 🚀 All tasks created, musician is ready![0m
+[0;32mI (734) main_task: Returned from app_main()[0m
+[0;32mI (743) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (743) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (748) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (753) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (3358) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (3358) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (3358) MUSICIAN: 📡 Message Type: 1, Part ID: 255, Song ID: 1[0m
+[0;32mI (3363) MUSICIAN: 🎯 Message for me? YES (msg part_id: 255, my id: 1)[0m
+[0;32mI (3369) MUSICIAN: 🎼 Processing SONG_START message[0m
+[0;32mI (3374) MUSICIAN: 🎼 Song started: ID 1, Tempo 120 BPM[0m
+[0;32mI (3379) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (3384) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (3389) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (3395) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (3401) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (3406) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (3411) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (3416) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (3423) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (3427) MUSICIAN: 🎵 Received note command: Note 64, Duration 400 ms[0m
+[0;32mI (3434) SOUND: 🎵 Playing note 64 (329.6 Hz) for 400 ms[0m
+[0;32mI (3439) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (3444) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (3449) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (3455) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (3461) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (3466) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (3471) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (3477) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (3839) SOUND: 🔇 Note stopped[0m
+[0;32mI (3870) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (3870) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (3870) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (3874) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (3881) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (3886) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (3891) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (3896) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (3903) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (3907) MUSICIAN: 🎵 Received note command: Note 64, Duration 400 ms[0m
+[0;32mI (3914) SOUND: 🎵 Playing note 64 (329.6 Hz) for 400 ms[0m
+[0;32mI (3960) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (3960) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (3960) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (3964) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (4319) SOUND: 🔇 Note stopped[0m
+[0;32mI (4362) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (4362) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (4362) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (4366) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (4373) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (4378) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (4382) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (4388) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (4394) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (4399) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (4406) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (4411) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (4416) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (4421) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (4426) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (4566) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (4566) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (4566) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (4571) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (4809) SOUND: 🔇 Note stopped[0m
+[0;32mI (4871) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (4871) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (4871) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (4875) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (4882) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (4887) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (4892) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (4897) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (4903) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (4908) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (4915) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (5159) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5159) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5159) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (5164) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (5319) SOUND: 🔇 Note stopped[0m
+[0;32mI (5361) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5361) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5361) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (5365) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (5372) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5377) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5381) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (5387) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (5393) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (5398) MUSICIAN: 🎵 Received note command: Note 72, Duration 400 ms[0m
+[0;32mI (5405) SOUND: 🎵 Playing note 72 (523.3 Hz) for 400 ms[0m
+[0;32mI (5410) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5415) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5420) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (5425) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (5529) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (5529) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (5529) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (5530) MUSICIAN: 🔍 Messages Received: 19[0m
+[0;32mI (5534) MUSICIAN: 🔍 Time since last message: 103 ms[0m
+[0;32mI (5539) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (5542) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (5545) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (5550) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (5555) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (5561) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 19 times)[0m
+[0;32mI (5567) MUSICIAN: 🔍 =================[0m
+[0;32mI (5746) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5746) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5746) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (5751) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (5809) SOUND: 🔇 Note stopped[0m
+[0;32mI (5866) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5866) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5866) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (5871) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (5877) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5882) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5887) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (5892) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (5899) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (5903) MUSICIAN: 🎵 Received note command: Note 72, Duration 400 ms[0m
+[0;32mI (5910) SOUND: 🎵 Playing note 72 (523.3 Hz) for 400 ms[0m
+[0;32mI (5958) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (5958) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (5958) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (5963) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (6319) SOUND: 🔇 Note stopped[0m
+[0;32mI (6359) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (6359) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (6359) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (6364) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (6371) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (6375) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (6380) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (6386) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (6392) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (6397) MUSICIAN: 🎵 Received note command: Note 71, Duration 800 ms[0m
+[0;32mI (6403) SOUND: 🎵 Playing note 71 (493.9 Hz) for 800 ms[0m
+[0;32mI (6408) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (6414) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (6418) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (6424) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (6567) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (6567) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (6567) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (6572) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (7169) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (7169) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (7169) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (7173) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (7209) SOUND: 🔇 Note stopped[0m
+[0;32mI (7367) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (7367) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (7367) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (7372) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (7378) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (7383) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (7388) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (7394) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (7400) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (7405) MUSICIAN: 🎵 Received note command: Note 69, Duration 400 ms[0m
+[0;32mI (7411) SOUND: 🎵 Playing note 69 (440.0 Hz) for 400 ms[0m
+[0;32mI (7416) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (7422) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (7426) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (7432) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (7764) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (7764) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (7764) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (7768) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (7819) SOUND: 🔇 Note stopped[0m
+[0;32mI (7864) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (7864) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (7864) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (7869) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (7875) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (7880) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (7885) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (7891) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (7897) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (7902) MUSICIAN: 🎵 Received note command: Note 69, Duration 400 ms[0m
+[0;32mI (7908) SOUND: 🎵 Playing note 69 (440.0 Hz) for 400 ms[0m
+[0;32mI (8309) SOUND: 🔇 Note stopped[0m
+[0;32mI (8367) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (8367) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (8367) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (8372) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (8378) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (8383) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (8388) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (8394) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (8400) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (8405) MUSICIAN: 🎵 Received note command: Note 67, Duration 400 ms[0m
+[0;32mI (8411) SOUND: 🎵 Playing note 67 (392.0 Hz) for 400 ms[0m
+[0;32mI (8416) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (8422) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (8426) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (8432) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (8562) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (8563) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (8563) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (8567) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (8819) SOUND: 🔇 Note stopped[0m
+[0;32mI (8863) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (8863) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (8864) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (8868) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (8874) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (8880) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (8884) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (8890) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (8896) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (8901) MUSICIAN: 🎵 Received note command: Note 67, Duration 400 ms[0m
+[0;32mI (8907) SOUND: 🎵 Playing note 67 (392.0 Hz) for 400 ms[0m
+[0;32mI (9165) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (9165) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (9165) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (9170) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (9309) SOUND: 🔇 Note stopped[0m
+[0;32mI (9366) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (9366) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (9366) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (9371) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (9377) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (9382) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (9387) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (9393) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (9399) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (9404) MUSICIAN: 🎵 Received note command: Note 65, Duration 400 ms[0m
+[0;32mI (9410) SOUND: 🎵 Playing note 65 (349.2 Hz) for 400 ms[0m
+[0;32mI (9415) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (9421) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (9425) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (9431) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (9763) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (9763) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (9764) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (9768) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (9819) SOUND: 🔇 Note stopped[0m
+[0;32mI (9863) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (9863) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (9863) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (9868) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (9874) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (9879) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (9884) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (9890) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (9896) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (9901) MUSICIAN: 🎵 Received note command: Note 65, Duration 400 ms[0m
+[0;32mI (9907) SOUND: 🎵 Playing note 65 (349.2 Hz) for 400 ms[0m
+[0;32mI (10309) SOUND: 🔇 Note stopped[0m
+[0;32mI (10368) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (10368) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (10369) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (10373) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (10380) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (10385) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (10390) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (10395) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (10402) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (10406) MUSICIAN: 🎵 Received note command: Note 64, Duration 800 ms[0m
+[0;32mI (10413) SOUND: 🎵 Playing note 64 (329.6 Hz) for 800 ms[0m
+[0;32mI (10418) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (10424) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (10428) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (10434) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (10440) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (10446) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (10451) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (10456) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (10570) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (10570) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (10570) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (10571) MUSICIAN: 🔍 Messages Received: 51[0m
+[0;32mI (10575) MUSICIAN: 🔍 Time since last message: 113 ms[0m
+[0;32mI (10580) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (10584) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (10587) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (10591) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (10597) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (10603) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 51 times)[0m
+[0;32mI (10608) MUSICIAN: 🔍 =================[0m
+[0;32mI (10735) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (10735) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (10735) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (10740) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (10749) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (10752) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (10756) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (10762) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (11159) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (11159) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (11159) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (11164) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (11219) SOUND: 🔇 Note stopped[0m
+[0;32mI (11361) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (11361) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (11361) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (11366) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (11372) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (11377) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (11382) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (11388) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (11766) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (11766) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (11766) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (11771) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (11868) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (11868) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (11869) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (11873) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (11880) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (11885) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (11890) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (11895) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (11902) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (11907) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (11913) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (12319) SOUND: 🔇 Note stopped[0m
+[0;32mI (12361) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (12361) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (12361) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (12366) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (12372) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (12378) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (12382) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (12388) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (12394) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (12399) MUSICIAN: 🎵 Received note command: Note 69, Duration 400 ms[0m
+[0;32mI (12406) SOUND: 🎵 Playing note 69 (440.0 Hz) for 400 ms[0m
+[0;32mI (12411) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (12416) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (12421) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (12427) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (12433) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (12439) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (12443) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (12449) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (12809) SOUND: 🔇 Note stopped[0m
+[0;32mI (12860) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (12860) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (12860) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (12865) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (12871) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (12877) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (12882) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (12887) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (12894) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (12898) MUSICIAN: 🎵 Received note command: Note 69, Duration 400 ms[0m
+[0;32mI (12905) SOUND: 🎵 Playing note 69 (440.0 Hz) for 400 ms[0m
+[0;32mI (13309) SOUND: 🔇 Note stopped[0m
+[0;32mI (13364) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (13364) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (13364) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (13369) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (13375) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (13381) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (13386) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (13391) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (13398) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (13402) MUSICIAN: 🎵 Received note command: Note 67, Duration 400 ms[0m
+[0;32mI (13409) SOUND: 🎵 Playing note 67 (392.0 Hz) for 400 ms[0m
+[0;32mI (13414) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (13420) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (13424) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (13430) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (13762) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (13762) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (13762) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (13767) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (13819) SOUND: 🔇 Note stopped[0m
+[0;32mI (13861) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (13861) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (13861) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (13866) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (13872) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (13878) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (13883) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (13888) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (13895) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (13899) MUSICIAN: 🎵 Received note command: Note 67, Duration 400 ms[0m
+[0;32mI (13906) SOUND: 🎵 Playing note 67 (392.0 Hz) for 400 ms[0m
+[0;32mI (14309) SOUND: 🔇 Note stopped[0m
+[0;32mI (14363) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (14364) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (14364) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (14368) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (14375) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (14380) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (14385) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (14391) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (14397) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (14402) MUSICIAN: 🎵 Received note command: Note 65, Duration 800 ms[0m
+[0;32mI (14408) SOUND: 🎵 Playing note 65 (349.2 Hz) for 800 ms[0m
+[0;32mI (14414) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (14419) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (14424) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (14429) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (14436) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (14441) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (14446) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (14452) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (14964) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (14964) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (14964) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (14969) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (15209) SOUND: 🔇 Note stopped[0m
+[0;32mI (15365) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15365) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (15365) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (15370) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (15376) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15382) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (15387) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (15392) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (15399) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (15403) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (15410) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (15415) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15421) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (15425) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (15431) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (15512) MUSICIAN: 📊 Musician 1 Status:[0m
+[0;32mI (15512) MUSICIAN:    Active: Yes[0m
+[0;32mI (15512) MUSICIAN:    Current Song: 1[0m
+[0;32mI (15512) MUSICIAN:    Messages Received: 79[0m
+[0;32mI (15515) MUSICIAN:    Notes Played: 21[0m
+[0;32mI (15519) MUSICIAN:    Currently Playing: Yes[0m
+[0;32mI (15523) MUSICIAN:    Current Note: 71 (493.9 Hz)[0m
+[0;32mI (15527) MUSICIAN:    Last Message: 80 ms ago[0m
+[0;32mI (15562) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15562) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (15562) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (15567) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (15631) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (15631) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (15631) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (15632) MUSICIAN: 🔍 Messages Received: 80[0m
+[0;32mI (15636) MUSICIAN: 🔍 Time since last message: 64 ms[0m
+[0;32mI (15641) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (15644) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (15648) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (15652) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (15658) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (15663) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 80 times)[0m
+[0;32mI (15669) MUSICIAN: 🔍 =================[0m
+[0;32mI (15743) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15744) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (15744) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (15748) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (15755) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15760) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (15765) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (15771) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (15819) SOUND: 🔇 Note stopped[0m
+[0;32mI (15862) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15862) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (15862) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (15867) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (15873) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (15879) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (15883) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (15889) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (15895) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (15900) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (15907) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (16309) SOUND: 🔇 Note stopped[0m
+[0;32mI (16364) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (16364) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (16365) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (16369) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (16376) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (16381) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (16386) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (16391) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (16398) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (16402) MUSICIAN: 🎵 Received note command: Note 69, Duration 400 ms[0m
+[0;32mI (16409) SOUND: 🎵 Playing note 69 (440.0 Hz) for 400 ms[0m
+[0;32mI (16414) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (16420) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (16424) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (16430) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (16436) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (16442) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (16447) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (16452) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (16819) SOUND: 🔇 Note stopped[0m
+[0;32mI (16865) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (16865) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (16866) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (16870) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (16877) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (16882) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (16887) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (16892) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (16899) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (16904) MUSICIAN: 🎵 Received note command: Note 69, Duration 400 ms[0m
+[0;32mI (16910) SOUND: 🎵 Playing note 69 (440.0 Hz) for 400 ms[0m
+[0;32mI (16975) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (16976) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (16976) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (16980) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (17319) SOUND: 🔇 Note stopped[0m
+[0;32mI (17358) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (17359) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (17359) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (17363) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (17370) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (17375) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (17380) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (17386) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (17392) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (17397) MUSICIAN: 🎵 Received note command: Note 67, Duration 400 ms[0m
+[0;32mI (17403) SOUND: 🎵 Playing note 67 (392.0 Hz) for 400 ms[0m
+[0;32mI (17409) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (17414) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (17419) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (17424) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (17564) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (17564) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (17564) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (17569) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (17809) SOUND: 🔇 Note stopped[0m
+[0;32mI (17865) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (17865) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (17866) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (17870) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (17877) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (17882) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (17887) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (17892) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (17899) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (17904) MUSICIAN: 🎵 Received note command: Note 67, Duration 400 ms[0m
+[0;32mI (17910) SOUND: 🎵 Playing note 67 (392.0 Hz) for 400 ms[0m
+[0;32mI (18167) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (18168) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (18168) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (18172) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (18319) SOUND: 🔇 Note stopped[0m
+[0;32mI (18358) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (18358) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (18358) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (18363) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (18369) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (18375) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (18380) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (18385) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (18392) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (18396) MUSICIAN: 🎵 Received note command: Note 65, Duration 800 ms[0m
+[0;32mI (18403) SOUND: 🎵 Playing note 65 (349.2 Hz) for 800 ms[0m
+[0;32mI (18408) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (18414) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (18418) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (18424) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (19209) SOUND: 🔇 Note stopped[0m
+[0;32mI (19364) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (19364) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (19364) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (19369) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (19375) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (19381) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (19386) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (19391) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (19398) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (19402) MUSICIAN: 🎵 Received note command: Note 64, Duration 400 ms[0m
+[0;32mI (19409) SOUND: 🎵 Playing note 64 (329.6 Hz) for 400 ms[0m
+[0;32mI (19414) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (19420) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (19424) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (19430) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (19819) SOUND: 🔇 Note stopped[0m
+[0;32mI (19862) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (19862) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (19862) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (19867) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (19873) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (19879) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (19883) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (19889) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (19895) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (19900) MUSICIAN: 🎵 Received note command: Note 64, Duration 400 ms[0m
+[0;32mI (19907) SOUND: 🎵 Playing note 64 (329.6 Hz) for 400 ms[0m
+[0;32mI (20309) SOUND: 🔇 Note stopped[0m
+[0;32mI (20376) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (20376) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (20376) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (20381) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (20387) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (20392) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (20397) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (20403) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (20409) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (20414) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (20421) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (20426) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (20431) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (20436) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (20442) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (20673) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (20673) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (20673) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (20674) MUSICIAN: 🔍 Messages Received: 109[0m
+[0;32mI (20678) MUSICIAN: 🔍 Time since last message: 231 ms[0m
+[0;32mI (20683) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (20687) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (20690) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (20694) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (20700) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (20706) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 109 times)[0m
+[0;32mI (20712) MUSICIAN: 🔍 =================[0m
+[0;32mI (20753) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (20753) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (20753) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (20758) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (20764) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (20770) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (20775) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (20780) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (20829) SOUND: 🔇 Note stopped[0m
+[0;32mI (20861) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (20861) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (20861) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (20866) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (20872) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (20878) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (20882) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (20888) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (20894) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (20899) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (20906) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (21309) SOUND: 🔇 Note stopped[0m
+[0;32mI (21364) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (21364) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (21365) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (21369) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (21375) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (21381) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (21386) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (21391) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (21398) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (21402) MUSICIAN: 🎵 Received note command: Note 72, Duration 400 ms[0m
+[0;32mI (21409) SOUND: 🎵 Playing note 72 (523.3 Hz) for 400 ms[0m
+[0;32mI (21414) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (21420) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (21424) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (21430) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (21819) SOUND: 🔇 Note stopped[0m
+[0;32mI (21860) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (21860) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (21860) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (21865) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (21871) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (21877) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (21882) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (21887) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (21894) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (21898) MUSICIAN: 🎵 Received note command: Note 72, Duration 400 ms[0m
+[0;32mI (21905) SOUND: 🎵 Playing note 72 (523.3 Hz) for 400 ms[0m
+[0;32mI (22309) SOUND: 🔇 Note stopped[0m
+[0;32mI (22363) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (22363) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (22363) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (22368) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (22374) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (22380) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (22384) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (22390) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (22396) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (22401) MUSICIAN: 🎵 Received note command: Note 71, Duration 800 ms[0m
+[0;32mI (22408) SOUND: 🎵 Playing note 71 (493.9 Hz) for 800 ms[0m
+[0;32mI (22413) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (22418) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (22423) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (22429) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (23209) SOUND: 🔇 Note stopped[0m
+[0;32mI (23359) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (23360) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (23360) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (23364) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (23371) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (23376) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (23381) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (23387) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (23393) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (23398) MUSICIAN: 🎵 Received note command: Note 69, Duration 400 ms[0m
+[0;32mI (23404) SOUND: 🎵 Playing note 69 (440.0 Hz) for 400 ms[0m
+[0;32mI (23410) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (23415) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (23420) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (23425) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (23809) SOUND: 🔇 Note stopped[0m
+[0;32mI (23868) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (23868) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (23868) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (23873) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (23879) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (23885) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (23889) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (23895) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (23901) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (23906) MUSICIAN: 🎵 Received note command: Note 69, Duration 400 ms[0m
+[0;32mI (23913) SOUND: 🎵 Playing note 69 (440.0 Hz) for 400 ms[0m
+[0;32mI (24319) SOUND: 🔇 Note stopped[0m
+[0;32mI (24367) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (24367) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (24368) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (24372) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (24379) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (24384) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (24389) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (24394) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (24401) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (24406) MUSICIAN: 🎵 Received note command: Note 67, Duration 400 ms[0m
+[0;32mI (24412) SOUND: 🎵 Playing note 67 (392.0 Hz) for 400 ms[0m
+[0;32mI (24417) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (24423) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (24428) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (24433) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (24819) SOUND: 🔇 Note stopped[0m
+[0;32mI (24864) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (24864) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (24864) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (24869) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (24875) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (24880) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (24885) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (24891) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (24897) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (24902) MUSICIAN: 🎵 Received note command: Note 67, Duration 400 ms[0m
+[0;32mI (24908) SOUND: 🎵 Playing note 67 (392.0 Hz) for 400 ms[0m
+[0;32mI (25309) SOUND: 🔇 Note stopped[0m
+[0;32mI (25364) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (25364) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (25365) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (25369) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (25376) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (25381) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (25386) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (25391) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (25398) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (25403) MUSICIAN: 🎵 Received note command: Note 65, Duration 400 ms[0m
+[0;32mI (25409) SOUND: 🎵 Playing note 65 (349.2 Hz) for 400 ms[0m
+[0;32mI (25414) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (25420) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (25424) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (25430) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (25715) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (25715) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (25715) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (25716) MUSICIAN: 🔍 Messages Received: 134[0m
+[0;32mI (25720) MUSICIAN: 🔍 Time since last message: 284 ms[0m
+[0;32mI (25725) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (25729) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (25732) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (25736) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (25742) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (25748) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 134 times)[0m
+[0;32mI (25754) MUSICIAN: 🔍 =================[0m
+[0;32mI (25755) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (25763) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (25768) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (25773) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (25780) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (25785) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (25790) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (25796) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (25819) SOUND: 🔇 Note stopped[0m
+[0;32mI (25861) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (25862) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (25862) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (25866) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (25873) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (25878) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (25883) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (25889) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (25895) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (25900) MUSICIAN: 🎵 Received note command: Note 65, Duration 400 ms[0m
+[0;32mI (25906) SOUND: 🎵 Playing note 65 (349.2 Hz) for 400 ms[0m
+[0;32mI (26309) SOUND: 🔇 Note stopped[0m
+[0;32mI (26361) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (26361) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (26362) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (26366) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (26373) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (26378) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (26383) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (26388) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (26395) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (26399) MUSICIAN: 🎵 Received note command: Note 64, Duration 800 ms[0m
+[0;32mI (26406) SOUND: 🎵 Playing note 64 (329.6 Hz) for 800 ms[0m
+[0;32mI (26411) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (26417) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (26421) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (26427) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (26434) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (26439) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (26444) MUSICIAN: 📡 Message Type: 4, Part ID: 255, Song ID: 1[0m
+[0;32mI (26450) MUSICIAN: 🎯 Message for me? YES (msg part_id: 255, my id: 1)[0m
+[0;32mI (26456) MUSICIAN: 🎊 Processing SONG_END message[0m
+[0;32mI (26461) MUSICIAN: 🎊 Song ended: ID 1[0m
+[0;32mI (26465) SOUND: 🔇 Note stopped[0m
+[0;32mI (29567) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (29567) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (29567) MUSICIAN: 📡 Message Type: 1, Part ID: 255, Song ID: 1[0m
+[0;32mI (29572) MUSICIAN: 🎯 Message for me? YES (msg part_id: 255, my id: 1)[0m
+[0;32mI (29578) MUSICIAN: 🎼 Processing SONG_START message[0m
+[0;32mI (29583) MUSICIAN: 🎼 Song started: ID 1, Tempo 120 BPM[0m
+[0;32mI (29588) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (29594) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (29599) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (29604) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (29611) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (29616) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (29621) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (29627) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (29633) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (29638) MUSICIAN: 🎵 Received note command: Note 64, Duration 400 ms[0m
+[0;32mI (29644) SOUND: 🎵 Playing note 64 (329.6 Hz) for 400 ms[0m
+[0;32mI (29649) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (29655) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (29660) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (29665) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (29672) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (29677) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (29682) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (29688) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (30049) SOUND: 🔇 Note stopped[0m
+[0;32mI (30081) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30081) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30081) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (30086) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (30092) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30098) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30102) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (30108) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (30114) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (30119) MUSICIAN: 🎵 Received note command: Note 64, Duration 400 ms[0m
+[0;32mI (30126) SOUND: 🎵 Playing note 64 (329.6 Hz) for 400 ms[0m
+[0;32mI (30168) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30168) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30169) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (30173) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (30529) SOUND: 🔇 Note stopped[0m
+[0;32mI (30558) MUSICIAN: 📊 Musician 1 Status:[0m
+[0;32mI (30558) MUSICIAN:    Active: Yes[0m
+[0;32mI (30558) MUSICIAN:    Current Song: 1[0m
+[0;32mI (30558) MUSICIAN:    Messages Received: 150[0m
+[0;32mI (30561) MUSICIAN:    Notes Played: 43[0m
+[0;32mI (30565) MUSICIAN:    Currently Playing: No[0m
+[0;32mI (30569) MUSICIAN:    Last Message: 384 ms ago[0m
+[0;32mI (30572) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30578) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30583) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (30589) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (30595) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30601) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30605) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (30611) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (30617) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (30622) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (30629) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (30634) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30639) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30644) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (30650) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (30765) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30765) MUSICIAN: 📡 From MAC: 88:57:21:ae:44:84[0m
+[0;32mI (30765) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (30770) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (30773) MUSICIAN: 🔍 === DEBUG INFO ===[0m
+[0;32mI (30776) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30780) MUSICIAN: 🔍 ESP-NOW Status: Initialized[0m
+[0;32mI (30786) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30790) MUSICIAN: 🔍 Musician ID: 1[0m
+[0;32mI (30795) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (30799) MUSICIAN: 🔍 Messages Received: 154[0m
+[0;32mI (30804) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (30809) MUSICIAN: 🔍 Time since last message: 4294967265 ms[0m
+[0;32mI (30815) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (30821) MUSICIAN: 🔍 WiFi Mode: 1[0m
+[0;32mI (30826) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (30834) MUSICIAN: 📡 Message Type: 6, Part ID: 0, Song ID: 0[0m
+[0;32mI (30840) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (30846) MUSICIAN: 🔍 WiFi Channel: 1[0m
+[0;32mI (30850) MUSICIAN: 🔍 Message Types Expected:[0m
+[0;32mI (30854) MUSICIAN: 🔍   Type 1 = SONG_START (to start playing)[0m
+[0;32mI (30860) MUSICIAN: 🔍   Type 2 = PLAY_NOTE (to play notes)[0m
+[0;32mI (30865) MUSICIAN: 🔍   Type 6 = HEARTBEAT (received 156 times)[0m
+[0;32mI (30871) MUSICIAN: 🔍 =================[0m
+[0;32mI (31039) SOUND: 🔇 Note stopped[0m
+[0;32mI (31069) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (31069) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (31069) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (31074) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (31080) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (31086) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (31091) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (31096) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (31103) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (31107) MUSICIAN: 🎵 Received note command: Note 71, Duration 400 ms[0m
+[0;32mI (31114) SOUND: 🎵 Playing note 71 (493.9 Hz) for 400 ms[0m
+[0;32mI (31371) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (31371) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (31372) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (31376) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (31519) SOUND: 🔇 Note stopped[0m
+[0;32mI (31576) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (31576) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (31576) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (31581) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (31587) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (31592) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (31597) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (31603) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (31609) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (31614) MUSICIAN: 🎵 Received note command: Note 72, Duration 400 ms[0m
+[0;32mI (31621) SOUND: 🎵 Playing note 72 (523.3 Hz) for 400 ms[0m
+[0;32mI (31626) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (31631) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (31636) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (31642) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (32029) SOUND: 🔇 Note stopped[0m
+[0;32mI (32070) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (32071) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (32071) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (32075) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (32082) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (32087) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (32092) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (32098) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (32104) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (32109) MUSICIAN: 🎵 Received note command: Note 72, Duration 400 ms[0m
+[0;32mI (32115) SOUND: 🎵 Playing note 72 (523.3 Hz) for 400 ms[0m
+[0;32mI (32169) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (32169) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (32170) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (32174) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (32519) SOUND: 🔇 Note stopped[0m
+[0;32mI (32573) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (32573) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (32573) MUSICIAN: 📡 Message Type: 2, Part ID: 0, Song ID: 1[0m
+[0;32mI (32578) MUSICIAN: 🎯 Message for me? NO (msg part_id: 0, my id: 1)[0m
+[0;32mI (32584) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (32590) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (32594) MUSICIAN: 📡 Message Type: 2, Part ID: 1, Song ID: 1[0m
+[0;32mI (32600) MUSICIAN: 🎯 Message for me? YES (msg part_id: 1, my id: 1)[0m
+[0;32mI (32606) MUSICIAN: 🎵 Processing PLAY_NOTE message[0m
+[0;32mI (32611) MUSICIAN: 🎵 Received note command: Note 71, Duration 800 ms[0m
+[0;32mI (32618) SOUND: 🎵 Playing note 71 (493.9 Hz) for 800 ms[0m
+[0;32mI (32623) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (32628) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (32633) MUSICIAN: 📡 Message Type: 2, Part ID: 2, Song ID: 1[0m
+[0;32mI (32639) MUSICIAN: 🎯 Message for me? NO (msg part_id: 2, my id: 1)[0m
+[0;32mI (32776) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (32776) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (32776) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (32781) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (33369) MUSICIAN: 📡 ESP-NOW Data Received! Size: 16 bytes[0m
+[0;32mI (33369) MUSICIAN: 📡 From MAC: 14:33:5c:0e:99:64[0m
+[0;32mI (33369) MUSICIAN: 📡 Message Type: 2, Part ID: 3, Song ID: 1[0m
+[0;32mI (33373) MUSICIAN: 🎯 Message for me? NO (msg part_id: 3, my id: 1)[0m
+[0;32mI (33419) SOUND: 🔇 Note stopped[0m
